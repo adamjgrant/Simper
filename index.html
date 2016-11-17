@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+    div.clicked { background: yellow }
+    </style>
+  </head>
+  <body>
+    <h1>Very simple HTML class persistence</h1>
+    <p>Before leaving the page, Simper takes a snapshot of the HTML classes on elements you select, then reapplies them on refresh.</p>
+    <h2>Example</h2>
+    <p>Change these and then refresh</p>
+    <div data-persist-key="1">Click Me</div>
+    <div data-persist-key="2">Click Me</div>
+    <div data-persist-key="3">Click Me</div>
+    <code>
+      <pre>
+        &lt;div data-persist-key="1"&gt;Click Me&lt;/div&gt;
+        &lt;div data-persist-key="2"&gt;Click Me&lt;/div&gt;
+        &lt;div data-persist-key="3"&gt;Click Me&lt;/div&gt;
+      </pre>
+    </code>
+
+    <h2>How to implement</h2>
+    <ol>
+      <li>Include js file (0.93kb).</li>
+      <li>Add a unique <code>data-persist-key</code> to each element you wish to track.</li>
+    </ol>
+    <script src="simper.js"></script>
+    <script>
+      // Make the divs turn yellow when clicked
+      var divs = Array.prototype.slice.call(document.querySelectorAll('div'));
+      divs.forEach(function(div) {
+        (function(div){
+          div.addEventListener('click', function() {
+            if (div.classList.contains('clicked')) {
+              div.classList.remove('clicked');
+            }
+            else {
+              div.classList.add('clicked');
+            }
+          })
+        })(div)
+      });
+    </script>
+  </body>
+</html>
