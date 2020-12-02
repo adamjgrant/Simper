@@ -1,0 +1,88 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/node_modules/.bin/uglifyjs.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/align-text/index.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/camelcase/index.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/cliui/index.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/cliui/test/cliui.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/decamelize/index.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/is-buffer/index.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/is-buffer/test/basic.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/kind-of/index.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/lazy-cache/index.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/longest/index.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/right-align/index.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/source-map/dist/source-map.debug.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/source-map/dist/source-map.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/source-map/dist/source-map.min.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/source-map/lib/array-set.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/source-map/lib/base64-vlq.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/source-map/lib/base64.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/source-map/lib/binary-search.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/source-map/lib/mapping-list.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/source-map/lib/quick-sort.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/source-map/lib/source-map-consumer.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/source-map/lib/source-map-generator.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/source-map/lib/source-node.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/source-map/lib/util.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/source-map/source-map.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/window-size/index.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/wordwrap/example/center.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/wordwrap/example/meat.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/wordwrap/index.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/wordwrap/test/break.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/wordwrap/test/wrap.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/yargs/index.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/yargs/lib/completion.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/yargs/lib/parser.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/yargs/lib/usage.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/yargs/lib/validation.min.js" />
+        <item url="file://$PROJECT_DIR$/simper.min.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/node_modules/.bin/uglifyjs.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/align-text/index.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/camelcase/index.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/cliui/index.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/cliui/test/cliui.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/decamelize/index.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/is-buffer/index.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/is-buffer/test/basic.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/kind-of/index.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/lazy-cache/index.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/longest/index.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/right-align/index.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/dist/source-map.debug.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/dist/source-map.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/dist/source-map.min.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/array-set.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/base64-vlq.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/base64.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/binary-search.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/mapping-list.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/quick-sort.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/source-map-consumer.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/source-map-generator.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/source-node.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/util.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/source-map.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/window-size/index.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/wordwrap/example/center.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/wordwrap/example/meat.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/wordwrap/index.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/wordwrap/test/break.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/wordwrap/test/wrap.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/yargs/index.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/yargs/lib/completion.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/yargs/lib/parser.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/yargs/lib/usage.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/yargs/lib/validation.min.js" />
+      <root url="file://$PROJECT_DIR$/simper.min.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

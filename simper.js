@@ -9,11 +9,6 @@ function ready(fn) {
 Storage.prototype.setObject = function(key, value) { this.setItem(key, JSON.stringify(value)); }
 Storage.prototype.getObject = function(key) { var value = this.getItem(key); return value && JSON.parse(value); }
 
-// Automatically cache state when retrieved.
-var setStateCache = function(state, context, key) {
-  localStorage.setObject(key, state)
-}
-
 // Save class state
 window.addEventListener('beforeunload', function() {
   var persistedElements = Array.prototype.slice.call(document.querySelectorAll('[data-persist-key]'));
@@ -41,9 +36,9 @@ ready(function() {
       state = localStorage.getObject('simple_persistence');
 
   persistedElements.forEach(function(persistedElement) {
-    if (persistedElement.dataset['persistKey']) {
+    if (persistedElement.dataset['persistKey'] && state) {
       var _classes = state[persistedElement.dataset.persistKey]
-      persistedElement.setAttribute('class', '');
+      { persistedElement.setAttribute('class', '');
 
       _classes.forEach(function(_class) {
         persistedElement.classList.add(_class);
