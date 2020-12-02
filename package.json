@@ -1,0 +1,22 @@
+{
+  "name": "simper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamjgrant/Simper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamjgrant/Simper/issues"
+  },
+  "homepage": "https://github.com/adamjgrant/Simper#readme",
+  "dependencies": {
+    "uglify-js-es6": "^2.8.9"
+  }
+}
