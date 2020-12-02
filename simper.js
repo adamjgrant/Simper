@@ -38,7 +38,7 @@ ready(function() {
   persistedElements.forEach(function(persistedElement) {
     if (persistedElement.dataset['persistKey'] && state) {
       var _classes = state[persistedElement.dataset.persistKey]
-      { persistedElement.setAttribute('class', '');
+      persistedElement.setAttribute('class', '');
 
       _classes.forEach(function(_class) {
         persistedElement.classList.add(_class);
