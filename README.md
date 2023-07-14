@@ -1,1 +1,1 @@
-# [Simper](https://adamjgrant.github.io/simper)
+[Simper](http://adamjgrant.github.io/Simper/)
